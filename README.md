@@ -1,7 +1,5 @@
 # Table to Excel 2
 
-[![Build Status](https://travis-ci.org/linways/table-to-excel.svg?branch=master)](https://travis-ci.org/linways/table-to-excel)
-
 Export HTML table to valid excel file effortlessly.
 This library uses [exceljs/exceljs](https://github.com/exceljs/exceljs) under the hood to create the excel.  
 (Initial version of this library was using [protobi/js-xlsx](https://github.com/linways/table-to-excel/tree/V0.2.1), it can be found [here](https://github.com/linways/table-to-excel/tree/V0.2.1))
@@ -41,12 +39,12 @@ or
 TableToExcel.convert(document.getElementById("table1"), {
   name: "table1.xlsx",
   sheet: {
-    name: "Sheet 1"
-  }
+    name: "Sheet 1",
+  },
 });
 ```
-Check [this pen](https://codepen.io/rohithb/pen/YdjVbb) for working example.
 
+Check [this pen](https://codepen.io/rohithb/pen/YdjVbb) for working example.
 
 <!-- See [samples/index.html]() or [this fiddle](https://jsfiddle.net/rohithb/e2h4mbc5/)for working example. -->
 
